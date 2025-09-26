@@ -109,7 +109,7 @@
 							  	<textarea id="field-join-skill" class="input-text"></textarea>
 							  </div>
 						  	<div class="field-block center">
-						  		<input type="submit" value="Get in touch" class="button">
+						  		<input type="submit" value="Get in touch" class="button full-width">
 						  	</div>
 							</div> <!-- /form-site-each -->
 						</div> <!-- /grid-parent -->

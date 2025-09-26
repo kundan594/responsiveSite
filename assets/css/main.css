@@ -25,10 +25,14 @@ body, input, select, button {
 /* GLOBAL STYLES */
 
 a {
+  color: #888;
   text-decoration: none;
+  transition: all 0.2s linear;
 }
 
 a:hover, a:focus {
+  color: inherit;
+  transition: all 0.2s ease-in;
 }
 
 strong, b {
@@ -289,7 +293,14 @@ th {
   padding: 10px 20px;
   display: inline-block;
   cursor: pointer;
+  transition: all 0.2s linear;
 }
+
+.button:hover, .button:focus {
+  background-color: #444;
+  transition: all 0.2s ease-in;
+}
+
 
 /* Helpers: Overlay */
 
@@ -302,6 +313,18 @@ th {
   bottom: 0;
 }
 
+
+/* Helpers: Gradient */
+
+.overlay-gradient {
+  background-color: rgba(0, 0, 0, 0.6);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
 
 /* Helpers: Full-width */
 
@@ -546,8 +569,65 @@ th {
 
 /* Featured: Sites */
 
+.featured-block {
+  text-align: center;
+}
+
+.featured-each {
+  margin: 0 0 20px 0;
+}
+
+.featured-each-link {
+  color: #fff;
+  display: block;
+  position: relative;
+}
+
+.featured-each-img {
+  display: block;
+}
+
+.featured-each-info {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.featured-info-title {
+  text-transform: uppercase;
+}
+
+.featured-info-name {
+  font-size: 80%;
+}
+
+@media only screen and (min-width: 600px) {
+  .featured-each {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .featured-each {
+    width: 33.33%;
+  }
+}
+
 
 /* Featured: Submit a Site */
+
+@media only screen and (min-width: 900px) {
+  .form-site-each {
+    width: 50%;
+    float: left;
+  }
+
+}
 
 
 /*-------------------------------------*/

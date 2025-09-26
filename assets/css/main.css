@@ -159,6 +159,12 @@ th {
 
 /* Helpers: Typography */
 
+.heading-primary {
+  font-size: 220%;
+  text-align: center;
+  padding: 40px 0;
+}
+
 .ul-base {
   padding: 0;
   list-style-type: none;
@@ -368,6 +374,51 @@ th {
 
 /*-------------------------------------*/
 /* PAGE: TEAM */
+
+
+/* Team: Members */
+
+.team-block {
+  text-align: center;
+}
+
+.team-each {
+  margin: 0 0 20px 0;
+}
+
+.team-each-member {
+  text-transform: uppercase;
+}
+
+.team-each-role {
+  font-size: 80%;
+}
+
+@media only screen and (min-width: 600px) {
+  .team-each {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .team-each {
+    width: 33.33%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .team-each {
+    width: 25%;
+  }
+}
+
+
+/* Team: Join */
+
+
+/* Team: Work with us */
 
 
 /*-------------------------------------*/

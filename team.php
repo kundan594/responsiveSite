@@ -74,8 +74,10 @@
 
 				<div class="form-join-block">
 					<form class="form-join js-form-validate">
-						<h2 class="heading-secondary">Work with LiquidApt</h2>
-						<div>Drop us a line if you have what it takes</div>
+						<div class="heading-block">
+							<h2 class="heading-secondary">Work with LiquidApt</h2>
+							<div class="sub-heading">Drop us a line if you have what it takes</div>
+						</div>
 						<div class="container-mid">
 							<div class="grid-parent">
 								<div class="grid-child form-join-each">
@@ -111,7 +113,7 @@
 							</div>
 
 							<div class="field-block center">
-								<input type="submit" class="button-submit" value="Get in touch">
+								<input type="submit" class="button" value="Get in touch">
 							</div>						
 						</div> <!-- /container-mid -->
 					</form>

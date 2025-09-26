@@ -116,6 +116,7 @@ input[type="submit"], button {
 
 textarea {
   vertical-align: top;
+  min-height: 150px;
 }
 
 table {
@@ -170,6 +171,16 @@ th {
   text-align: center;
   text-transform: uppercase;
   padding: 20px 0;  
+}
+
+.sub-heading {
+  font-style: italic;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+.heading-block [class|="heading"] {
+  padding-bottom: 0;
 }
 
 .ul-base {
@@ -234,7 +245,51 @@ th {
 
 /* Helpers: Forms */
 
+.field-block {
+  padding: 10px 0;
+}
 
+.label {
+  text-align: center;
+  padding: 0 0 10px 0;
+  display: block;
+  position: relative;
+}
+
+.label-required:after {
+  content: "*";
+  color: red;
+  margin: 0 0 0 5px;
+}
+
+.input-text {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #bbb;
+}
+
+.input-text:focus {
+  border: 1px solid #888;
+  outline: 0;
+}
+
+.input-text.input-error {
+  border: 1px solid red;
+}
+
+
+/* Helpers: Buttons */
+
+.button {
+  color: #fff;
+  background-color: #777;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+}
 
 /* Helpers: Overlay */
 
@@ -472,6 +527,10 @@ th {
 }
 
 /* Team: Work with us */
+
+.form-join-block {
+  padding: 10px 0 30px;
+}
 
 @media only screen and (min-width: 700px) {
   .form-join-each {

@@ -279,7 +279,108 @@ th {
 
 
 /*-------------------------------------*/
+/* LAYOUT: HEADER */
+
+.header {
+  background-color: #555;
+  color: #fff;
+}
+
+.header a {
+  color: inherit;
+}
+
+/* Header: Logo */
+
+.logo {
+  padding: 10px 0 0 0;
+  display: block;
+}
+
+/* Header: Navigation */
+
+.nav li a {
+  padding: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+  .logo-block {
+    float: left;
+  }
+
+  .nav-block {
+    float: right;
+  }
+
+  .nav li, .nav li a {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+
+/*-------------------------------------*/
+/* LAYOUT: FOOTER */
+
+.footer {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  background-color: #555;
+  padding: 10px 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer-copyright-block {
+  font-size: 80%;
+  margin: 10px 0 0 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .footer {
+    text-align: left;
+  }
+
+  .footer-social-block {
+    float: left;
+  }
+
+  .footer-copyright-block {
+    float: right;
+  }
+}
+
+/* Footer: Social Icons */
+
+
+/* Footer: Copyright Block */
+
+
+/*-------------------------------------*/
+/* PAGE: HOME */
+
+
+/*-------------------------------------*/
+/* PAGE: OVERVIEW */
+
+
+/*-------------------------------------*/
+/* PAGE: TEAM */
+
+
+/*-------------------------------------*/
+/* PAGE: FEATURED */
+
+
+/*-------------------------------------*/
+/* PAGE: HOME */
+
+
+/*-------------------------------------*/
 /* MEDIA QUERIES */
+
 
 @media only screen and (min-width: 1200px) {
 }

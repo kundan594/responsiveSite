@@ -232,6 +232,10 @@ th {
 }
 
 
+/* Helpers: Forms */
+
+
+
 /* Helpers: Overlay */
 
 .overlay {
@@ -468,6 +472,13 @@ th {
 }
 
 /* Team: Work with us */
+
+@media only screen and (min-width: 700px) {
+  .form-join-each {
+    width: 33.33%;
+    float: left;    
+  }
+}
 
 
 /*-------------------------------------*/

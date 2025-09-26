@@ -71,6 +71,51 @@
 					</div> <!-- /job-info -->
 					<div class="overlay"></div>
 				</div> <!-- /background-block -->
+
+				<div class="form-join-block">
+					<form class="form-join js-form-validate">
+						<h2 class="heading-secondary">Work with LiquidApt</h2>
+						<div>Drop us a line if you have what it takes</div>
+						<div class="container-mid">
+							<div class="grid-parent">
+								<div class="grid-child form-join-each">
+									<div class="field-block">
+										<label for="join-input-name" class="label label-required">Your name</label>
+										<input type="text" class="input-text input-required" id="join-input-name">								
+									</div>									
+								</div>
+								
+								<div class="grid-child form-join-each">
+									<div class="field-block">
+										<label for="join-input-email" class="label label-required">Your email</label>
+										<input type="email" class="input-text input-required" id="join-input-email">
+									</div>
+								</div>
+
+								<div class="grid-child form-join-each">
+									<div class="field-block">
+										<label for="join-input-role" class="label label-required">Your role</label>
+										<select id="join-input-role" class="input-text input-required">
+											<option value="">Select a Value</option>
+											<option value="senior-graphic-designer">Jr. Graphic Designer</option>
+											<option value="backend-developer">Sr. Backend Developer</option>
+											<option value="ios-developer">iOS Developer</option>
+										</select>
+									</div>
+								</div>
+							</div> <!-- /grid-parent -->
+
+							<div class="field-block">
+								<label for="join-input-info" class="label label-required">Your skill set</label>
+								<textarea class="input-text input-required" id="join-input-info"></textarea>
+							</div>
+
+							<div class="field-block center">
+								<input type="submit" class="button-submit" value="Get in touch">
+							</div>						
+						</div> <!-- /container-mid -->
+					</form>
+				</div> <!-- /form-join-block -->
 			</section> <!-- /join-block -->
 
 		</main>

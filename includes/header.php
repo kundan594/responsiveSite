@@ -3,14 +3,14 @@
 		<div class="logo-block grid-child">
 			<a href="index.php" class="logo">LiquidApt</a>
 		</div> <!-- /logo-block -->
-
+		<a href="" class="nav-trigger icon-menu"></a>
 		<nav class="nav-block">
 			<ul class="ul-base nav">
 				<li><a href="overview.php">Overview</a></li>
 				<li><a href="team.php">Team</a></li>
 				<li><a href="featured.php">Featured</a></li>
 				<li><a href="contact.php">Contact</a></li>
-				<li><a href="#popup-sign-up" class="button-signup-trigger">Sign-up</a></li>
+				<li><a href="#popup-sign-up" class="button button-signup-trigger"><strong>Sign-up</strong></a></li>
 			</ul>
 		</nav>
 	</div>

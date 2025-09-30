@@ -18,7 +18,7 @@
 							<div class="sub-heading">We're in an old heritage building, fringed with palm trees, surrounded by beautiful views.</div>							
 						</div>
 						<h2 class="heading-secondary">Our Location</h2>	
-						<p>7834 Lake Avenue, Merrick, NY 11566</p>				
+						<p><span class="icon-location_on icon-left"></span>7834 Lake Avenue, Merrick, NY 11566</p>				
 						<p><a href="mailto:hello@liquidapt.com">hello@liquidapt.com</a></p>			
 					</div> <!-- /address-block -->
 				</section>
@@ -31,8 +31,8 @@
 						<div class="grid-child email-each">
 							<div class="email-each-type">Jobs</div>
 							<a href="mailto:job@liquidapt.com">
-								<span class="">
-									<span class="icon-mail"></span>
+								<span class="icon-round-wrap">
+									<span class="icon-mail dead-center"></span>
 								</span>
 								<div><strong>jobs@liquidapt.com</strong></div>
 							</a>
@@ -41,8 +41,8 @@
 						<div class="grid-child email-each">
 							<div class="email-each-type">Support</div>
 							<a href="mailto:support@liquidapt.com">
-								<span class="">
-									<span class="icon-mail"></span>
+								<span class="icon-round-wrap">
+									<span class="icon-mail dead-center"></span>
 								</span>
 								<div><strong>support@liquidapt.com</strong></div>
 							</a>
@@ -51,8 +51,8 @@
 						<div class="grid-child email-each">
 							<div class="email-each-type">Theme creation</div>
 							<a href="mailto:create@liquidapt.com">
-								<span class="">
-									<span class="icon-mail"></span>
+								<span class="icon-round-wrap">
+									<span class="icon-mail dead-center"></span>
 								</span>
 								<div><strong>create@liquidapt.com</strong></div>
 							</a>

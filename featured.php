@@ -8,7 +8,6 @@
 	</head>
 
 	<body>
-		<div class="notify notify--success">Notify div</div>
 		<?php include "includes/header.php"; ?>
 		<main class="main">
 			<section class="container-main">

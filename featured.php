@@ -16,7 +16,9 @@
 		  		<ul class="grid-parent ul-base">
 			  		<li class="featured-each grid-child">
 			  			<a href="" class="featured-each-link">
-				  			<img src="http://placehold.it/450x710" alt="One Step Ahead" class="featured-each-img">
+			  				<div class="featured-img-block">
+					  			<img src="assets/img/featured/mark-directive.jpg" alt="One Step Ahead" class="featured-each-img" width="336" height="530">
+					  		</div>
 				  			<div class="featured-each-info">
 					  			<div class="featured-info-title">One Step Ahead</div>
 					  			<div class="featured-info-name">Mark Stadler</div>
@@ -26,7 +28,9 @@
 
 			  		<li class="featured-each grid-child">
 			  			<a href="" class="featured-each-link">
-				  			<img src="http://placehold.it/450x710" alt="Wedding visions" class="featured-each-img">
+			  				<div class="featured-img-block">
+					  			<img src="assets/img/featured/julie-astral.jpg" alt="Wedding visions" class="featured-each-img" width="336" height="530">
+								</div>
 				  			<div class="featured-each-info">
 					  			<div class="featured-info-title">Wedding visions</div>
 					  			<div class="featured-info-name">Julie Brooks</div>
@@ -36,7 +40,9 @@
 
 			  		<li class="featured-each grid-child">
 			  			<a href="" class="featured-each-link">
-				  			<img src="http://placehold.it/450x710" alt="Everything.is.now" class="featured-each-img">
+			  				<div class="featured-img-block">
+					  			<img src="assets/img/featured/ramesh-parallelism.jpg" alt="Everything.is.now" class="featured-each-img" width="336" height="530">
+			  				</div>
 				  			<div class="featured-each-info">
 					  			<div class="featured-info-title">Everything.is.now</div>
 					  			<div class="featured-info-name">Ramesh Narvekar</div>
@@ -46,7 +52,9 @@
 
 			  		<li class="featured-each grid-child">
 			  			<a href="" class="featured-each-link">
-				  			<img src="http://placehold.it/450x710" alt="Portraiture" class="featured-each-img">
+			  				<div class="featured-img-block">				  			
+				  				<img src="assets/img/featured/jason-photon.jpg" alt="Portraiture" class="featured-each-img" width="336" height="530">
+				  			</div>
 				  			<div class="featured-each-info">
 					  			<div class="featured-info-title">Portraiture</div>
 					  			<div class="featured-info-name">Jason Smith</div>
@@ -56,7 +64,9 @@
 
 			  		<li class="featured-each grid-child">
 			  			<a href="" class="featured-each-link">
-				  			<img src="http://placehold.it/450x710" alt="Dream Blur" class="featured-each-img">
+			  				<div class="featured-img-block">
+					  			<img src="assets/img/featured/selvin-escape-velocity.jpg" alt="Dream Blur" class="featured-each-img" width="336" height="530">
+					  		</div>
 				  			<div class="featured-each-info">
 					  			<div class="featured-info-title">Dream Blur</div>
 					  			<div class="featured-info-name">Selvin Ramaswamy</div>
@@ -66,7 +76,9 @@
 
 			  		<li class="featured-each grid-child">
 			  			<a href="" class="featured-each-link">
-				  			<img src="http://placehold.it/450x710" alt="Showreel" class="featured-each-img">
+			  				<div class="featured-img-block">
+					  			<img src="assets/img/featured/meredith-dopetrope.jpg" alt="Showreel" class="featured-each-img" width="336" height="530">
+					  		</div>
 				  			<div class="featured-each-info">
 					  			<div class="featured-info-title">Showreel</div>
 					  			<div class="featured-info-name">Meredith Manson</div>

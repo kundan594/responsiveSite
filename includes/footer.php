@@ -2,11 +2,31 @@
 	<div class="container-full">
 		<div class="grid-parent">
 			<div class="footer-social-block">
-				<img src="http://placehold.it/30x30" alt="" class="footer-social-each">
-				<img src="http://placehold.it/30x30" alt="" class="footer-social-each">
-				<img src="http://placehold.it/30x30" alt="" class="footer-social-each">
-				<img src="http://placehold.it/30x30" alt="" class="footer-social-each">
-				<img src="http://placehold.it/30x30" alt="" class="footer-social-each">				
+				<a href="" class="footer-social-each" aria-label="Twitter link">
+					<span class="icon-round-wrap">
+						<span class="icon-twitter color-twitter dead-center"></span>					
+					</span>
+				</a>						
+				<a href="" class="footer-social-each" aria-label="Facebook link">
+					<span class="icon-round-wrap">
+						<span class="icon-facebook color-facebook dead-center"></span>
+					</span>
+				</a>
+				<a href="" class="footer-social-each" aria-label="Google Plus link">
+					<span class="icon-round-wrap">
+						<span class="icon-google-plus color-google dead-center"></span>
+					</span>
+				</a>
+				<a href="" class="footer-social-each" aria-label="Skype link">
+					<span class="icon-round-wrap">
+						<span class="icon-skype color-skype dead-center"></span>
+					</span>
+				</a>	
+				<a href="" class="footer-social-each" aria-label="Email Address">
+					<span class="icon-round-wrap">
+						<span class="icon-mail dead-center"></span>
+					</span>
+				</a>
 			</div> <!-- /footer-social-block -->
 
 			<div class="footer-copyright-block">

@@ -15,27 +15,27 @@
 				
 				<ul class="team-block grid-parent ul-base">
 					<li class="team-each grid-child">
-						<img src="http://placehold.it/600x450" alt="">
+						<img src="assets/img/team/members/pablo-alfaro.jpg" alt="Pablo Alfaro" width="600" height="400">
 						<div class="team-each-member">Pablo Alfaro</div>
 						<div class="team-each-role">Co-Founder &amp; CTO</div>
 
 					<li class="team-each grid-child">
-						<img src="http://placehold.it/600x450" alt="">
+						<img src="assets/img/team/members/alexis-ray.jpg" alt="Alexis Ray" width="600" height="400">
 						<div class="team-each-member">Alexis Ray</div>
 						<div class="team-each-role">Co-Founder &amp; Lead UI Developer</div>
 
 					<li class="team-each grid-child">
-						<img src="http://placehold.it/600x450" alt="">
+						<img src="assets/img/team/members/calvin-roberts.jpg" alt="Calvin Roberts" width="600" height="400">
 						<div class="team-each-member">Calvin Roberts</div>
 						<div class="team-each-role">Programmer / Hacker</div>
 
 					<li class="team-each grid-child">
-						<img src="http://placehold.it/600x450" alt="">
+						<img src="assets/img/team/members/richard-schlick.jpg" alt="Richard Schlick" width="600" height="400">
 						<div class="team-each-member">Richard Schlick</div>
 						<div class="team-each-role">Business Development</div>
 
 					<li class="team-each grid-child">
-						<img src="http://placehold.it/600x450" alt="">
+						<img src="assets/img/team/members/emma-downing.jpg" alt="Emma Downing" width="600" height="400">
 						<div class="team-each-member">Emma Downing</div>
 						<div class="team-each-role">Marketing &amp; Sales</div>
 				</ul> <!-- /team-block -->

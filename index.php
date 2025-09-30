@@ -18,9 +18,9 @@
 							<div class="sub-heading sub-heading--banner">Create a free, responsive site in minutes!</div>
 						</div>
 						<div class="banner-img-block clearfix">
-			  			<img src="http://placehold.it/280x442" alt="" class="banner-img banner-img-1" width="280">
-			  			<img src="http://placehold.it/280x442" alt="" class="banner-img banner-img-2" width="280">
-			  			<img src="http://placehold.it/280x442" alt="" class="banner-img banner-img-3" width="280">
+			  			<img src="assets/img/featured/selvin-escape-velocity.jpg" alt="Banner Home: 1" class="banner-img banner-img-1" width="280">
+			  			<img src="assets/img/featured/ramesh-parallelism.jpg" alt="Banner Home: 2" class="banner-img banner-img-2" width="280">
+			  			<img src="assets/img/featured/jason-photon.jpg" alt="Banner Home: 3" class="banner-img banner-img-3" width="280">
 						</div> <!-- /banner-img-block -->
 						<a href="overview.php" class="button button-hollow button-explore">Explore</a>
 						<a href="" class="button">Get LiquidApt Now</a>				

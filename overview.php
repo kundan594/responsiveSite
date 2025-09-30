@@ -32,19 +32,19 @@
 					</div>
 					<div class="grid-parent">
 						<a href="" class="liquidapt-steps-each grid-child">
-							<img src="http://placehold.it/200x200" alt="" class="liquidapt-steps-graphic">
+							<?php include"includes/svg/wrench.php"; ?>
 							<div class="liquidapt-steps-info">Sign up</div>
 							<div class="font-smaller">Step 1</div>
 						</a>
 
 						<a href="" class="liquidapt-steps-each grid-child">
-							<img src="http://placehold.it/200x200" alt="" class="liquidapt-steps-graphic">
+							<?php include"includes/svg/smart-watch.php"; ?>
 							<div class="liquidapt-steps-info">Select a theme</div>
 							<div class="font-smaller">Step 2</div>
 						</a>
 
 						<a href="" class="liquidapt-steps-each grid-child">
-							<img src="http://placehold.it/200x200" alt="" class="liquidapt-steps-graphic">
+							<?php include"includes/svg/presentation.php"; ?>
 							<div class="liquidapt-steps-info">Customize your site</div>
 							<div class="font-smaller">Step 3</div>
 						</a>						
@@ -65,7 +65,7 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="" class="full-width wow slideInRight">
+							<img src="assets/img/overview/why-liquidapt/themes.jpg" alt="themes-liquidapt" class="full-width wow slideInRight">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 
@@ -79,7 +79,7 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="" class="full-width wow slideInLeft">
+							<img src="assets/img/overview/why-liquidapt/dashboard.jpg" alt="theme-dashboard" class="full-width wow slideInLeft">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 
@@ -93,7 +93,7 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="" class="full-width wow slideInRight">
+							<img src="assets/img/overview/why-liquidapt/edit-on-the-go.jpg" alt="Edit liquidapt on the go" class="full-width wow slideInRight">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 				</div> <!-- /liquidapt-usage-block -->					

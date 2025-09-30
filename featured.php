@@ -23,7 +23,6 @@
 					  			<div class="featured-info-title">One Step Ahead</div>
 					  			<div class="featured-info-name">Mark Stadler</div>
 				  			</div>
-				  			<div class="overlay-gradient"></div>
 			  			</a>
 
 			  		<li class="featured-each grid-child">
@@ -35,7 +34,6 @@
 					  			<div class="featured-info-title">Wedding visions</div>
 					  			<div class="featured-info-name">Julie Brooks</div>
 				  			</div>
-				  			<div class="overlay-gradient"></div>
 			  			</a>
 
 			  		<li class="featured-each grid-child">
@@ -47,7 +45,6 @@
 					  			<div class="featured-info-title">Everything.is.now</div>
 					  			<div class="featured-info-name">Ramesh Narvekar</div>
 				  			</div>
-				  			<div class="overlay-gradient"></div>
 			  			</a>
 
 			  		<li class="featured-each grid-child">
@@ -59,7 +56,6 @@
 					  			<div class="featured-info-title">Portraiture</div>
 					  			<div class="featured-info-name">Jason Smith</div>
 				  			</div>
-				  			<div class="overlay-gradient"></div>
 			  			</a>
 
 			  		<li class="featured-each grid-child">
@@ -71,7 +67,6 @@
 					  			<div class="featured-info-title">Dream Blur</div>
 					  			<div class="featured-info-name">Selvin Ramaswamy</div>
 				  			</div>
-				  			<div class="overlay-gradient"></div>
 			  			</a>
 
 			  		<li class="featured-each grid-child">
@@ -83,7 +78,6 @@
 					  			<div class="featured-info-title">Showreel</div>
 					  			<div class="featured-info-name">Meredith Manson</div>
 				  			</div>
-				  			<div class="overlay-gradient"></div>
 			  			</a>
 		  		</ul>
 		  	</div> <!-- /featured-block -->		  	

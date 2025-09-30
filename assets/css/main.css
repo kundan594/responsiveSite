@@ -12,6 +12,7 @@ html, body {
 body {
   line-height: 1.6;
   background-color: #eee;
+  padding: 46px 0 0 0; /* padding-top = height of the header */
 }
 
 body, input, select, button {
@@ -25,7 +26,7 @@ body, input, select, button {
 /* GLOBAL STYLES */
 
 a {
-  color: #888;
+  color: #9D67AD;
   text-decoration: none;
   transition: all 0.2s linear;
 }
@@ -496,8 +497,15 @@ a.button-hollow:hover, a.button-hollow:focus {
 /* LAYOUT: HEADER */
 
 .header {
-  background-color: #555;
   color: #fff;
+  background-color: #555;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  height: 46px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .header a {
@@ -711,6 +719,7 @@ a.button-hollow:hover, a.button-hollow:focus {
 }
 
 .team-each-member {
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -782,29 +791,36 @@ a.button-hollow:hover, a.button-hollow:focus {
 }
 
 .featured-each {
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 
 .featured-each-link {
-  color: #fff;
+  color: inherit;
   display: block;
   position: relative;
 }
 
+.featured-img-block {
+  overflow: hidden;
+}
+
+.featured-img-block:hover .featured-each-img {
+  -webkit-transform: scaleX(1.1) scaleY(1.1);
+  transform: scaleX(1.1) scaleY(1.1);
+  transition: all 0.2s ease-in;
+}
+
 .featured-each-img {
+  transition: all 0.2s linear;
   display: block;
 }
 
 .featured-each-info {
-  padding: 10px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
+  padding: 10px 0 0 0;
 }
 
 .featured-info-title {
+  font-weight: 300;
   text-transform: uppercase;
 }
 

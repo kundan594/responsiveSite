@@ -559,6 +559,7 @@ th {
 
 .liquidapt-usage-each {
   color: #fff;
+  overflow-x: hidden;
 }
 
 .liquidapt-usage-each:nth-of-type(odd) {
@@ -574,13 +575,33 @@ th {
 }
 
 @media only screen and (min-width: 700px) {
+  .liquidapt-usage-each {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .liquidapt-usage-each:nth-of-type(even) {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;    
+  }
+
   .liquidapt-usage-info, .liquidapt-usage-img {
-    width: 50%;
     float: left;
+    width: 50%;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
   }
 
   .liquidapt-usage-each:nth-of-type(even) .liquidapt-usage-info {
     float: right;
+  }
+
+  .liquidapt-usage-each:nth-of-type(odd) .liquidapt-usage-info ul {
+    text-align: right;
   }
 }
 
@@ -865,39 +886,6 @@ th {
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
-}
-
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
 }
 
 

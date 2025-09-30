@@ -57,7 +57,7 @@
 				<div class="liquidapt-usage-block">
 					<div class="liquidapt-usage-each clearfix">
 						<div class="liquidapt-usage-info">
-							<ul>
+							<ul class="wow slideInLeft">
 								<li>12 gorgeous, responsive themes</li>
 								<li>1-4 new themes released every month</li>
 								<li>Starter theme for coders who want complete control</li>
@@ -65,13 +65,13 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="" class="full-width">
+							<img src="http://placehold.it/1000x667" alt="" class="full-width wow slideInRight">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 
 					<div class="liquidapt-usage-each clearfix">
 						<div class="liquidapt-usage-info">
-							<ul>
+							<ul class="wow slideInRight">
 								<li>3 themes for an admin interface or dashboard</li>
 								<li>Add bar, pie, bubble charts and more!</li>
 								<li>Impress clients with superb visuals for stats</li>
@@ -79,13 +79,13 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="" class="full-width">
+							<img src="http://placehold.it/1000x667" alt="" class="full-width wow slideInLeft">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 
 					<div class="liquidapt-usage-each clearfix">
 						<div class="liquidapt-usage-info">
-							<ul>
+							<ul class="wow slideInLeft">
 								<li>Edit your site on the go!</li>
 								<li>Log into our CMS from any device!</li>
 								<li>Or download our LiquidApt app on iOS, Android or Windows.</li>
@@ -93,7 +93,7 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="" class="full-width">
+							<img src="http://placehold.it/1000x667" alt="" class="full-width wow slideInRight">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 				</div> <!-- /liquidapt-usage-block -->					
@@ -178,6 +178,11 @@
 		<?php include "includes/footer.php"; ?>
 		<?php include "includes/js-global.php"; ?>
 		<script src="assets/js/lib/wow.min.js"></script>
+		<script>
+			new WOW().init({
+				offset: 50
+			});
+		</script>
 	</body>
 	
 </html>

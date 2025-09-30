@@ -43,7 +43,7 @@
 
 			<section class="join-block">
 				<div class="background-block background-block--job">
-					<div class="job-info container-sm">
+					<div class="background-block-content container-sm">
 						<h2 class="heading-secondary">Join us</h2>
 						<p>We're the fastest growing portfolio site building app in the country. Our workspace is located within a beautiful, heritage property overlooking Redwood Park. We offer a competitive salary, the latest hardware, paid leave, and free organic buffet style lunch. Our team is diverse, highly motivated and very cosmopolitan.</p>
 						

@@ -56,6 +56,7 @@
 		  </div> <!-- /email-block -->
 
 			<div class="map-google-embed">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1548629.9229105124!2d-73.979681!3d40.703313!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2s!4v1438428239982" width="800" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 
 			<div class="social-block">			

@@ -345,6 +345,17 @@ th {
   position: relative;
 }
 
+.background-block-content {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.background-block-content a {
+  color: #fff;
+  border-bottom: 1px solid;
+}
+
 
 /*-------------------------------------*/
 /* GRID */
@@ -535,11 +546,6 @@ th {
   margin: 40px 0 0 0;
 }
 
-.job-info {
-  position: relative;
-  z-index: 1;
-}
-
 .job-positions-block {
   margin: 25px 0 0 0;
 }
@@ -636,15 +642,56 @@ th {
 
 /* Contact: Address */
 
+.background-block--contact {
+  background-image: url("../../assets/img/contact/location.jpg");
+}
+
+.address-block {
+  text-align: center;
+}
 
 /* Contact: Email block */
+
+.email-block {
+  text-align: center;
+  background-color: #ddd;
+  padding: 10px 0;
+}
+
+.email-each {
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .email-each {
+    width: 33.33%;
+    float: left;
+  }
+}
 
 
 /* Contact: Google Map */
 
+.map-google-embed iframe {
+  width: 100%;
+  display: block;
+}
+
+.map-google-embed img {
+  max-width: none;
+}
 
 /* Contact: Social Media */
 
+.social-block {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icon-each {
+  margin: 0 10px;
+  display: inline-block;
+}
 
 
 /*-------------------------------------*/

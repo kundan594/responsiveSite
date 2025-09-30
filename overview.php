@@ -105,7 +105,7 @@
 						<h2 class="heading-secondary">Production-ready templates</h2>
 						<div class="sub-heading">Have your website up in an hour!</div>
 					</div>
-				  <table class="table table-responsive">
+				  <table class="table table-responsive table-theme">
 		 		  	<thead>
 				  		<tr>
 				  			<th>Themes</th>

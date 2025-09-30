@@ -32,7 +32,6 @@ a {
 }
 
 a:hover, a:focus {
-  color: inherit;
   opacity: 0.8;
   transition: all 0.2s ease-in;
 }
@@ -734,16 +733,31 @@ a.button-hollow:hover, a.button-hollow:focus {
 /* Overview: Steps Block */
 
 .liquidapt-steps-block {
+  padding: 20px 0 30px;
   text-align: center;
 }
 
 .liquidapt-steps-each {
+  color: inherit;
   display: block;
   margin: 10px 0;
 }
 
+.liquidapt-step-graphic {
+  max-width: 200px;
+  max-height: 100%;
+}
+
 .liquidapt-steps-info {
   text-transform: uppercase;
+}
+
+.wrench-graphic:hover .wrench-graphic-section {
+  fill: #bbb;
+}
+
+.watch-graphic:hover .watch-graphic-section, .chart-graphic:hover .chart-graphic-section {
+  fill: #9D67AD;
 }
 
 @media only screen and (min-width: 600px) {
@@ -770,6 +784,7 @@ a.button-hollow:hover, a.button-hollow:focus {
 }
 
 .liquidapt-usage-info ul {
+  font-weight: 300;
   padding: 20px;
 }
 
@@ -799,6 +814,10 @@ a.button-hollow:hover, a.button-hollow:focus {
     float: right;
   }
 
+  .liquidapt-usage-info ul {
+    font-size: 120%;
+  }
+
   .liquidapt-usage-each:nth-of-type(odd) .liquidapt-usage-info ul {
     text-align: right;
   }
@@ -806,6 +825,23 @@ a.button-hollow:hover, a.button-hollow:focus {
 
 
 /* Overview: Theme Block */
+
+.table-theme th {
+  color: #fff;
+  font-weight: 300;
+  background-color: #9D67AD;
+}
+
+.table-theme td {
+  vertical-align: middle;
+}
+
+.table-theme tr td:first-of-type, .table-theme tr td:last-of-type {
+  font-size: 140%;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 
 /* Overview: Call to Action */

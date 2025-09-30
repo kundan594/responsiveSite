@@ -19,7 +19,7 @@
 <!-- Lightbox: Sign up content -->
 <div id="popup-sign-up" class="popup-inline mfp-hide">
 	<div class="heading-block">
-		<div class="heading-secondary">Sign Up</div>
+		<h2 class="heading-secondary">Sign Up</h2>
 		<div class="sub-heading">LiquidApt is free, forever</div>	
 	</div>
   <form class="form-sign-up js-form-validate">

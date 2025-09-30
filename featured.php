@@ -8,6 +8,7 @@
 	</head>
 
 	<body>
+		<div class="notify notify--success">Notify div</div>
 		<?php include "includes/header.php"; ?>
 		<main class="main">
 			<section class="container-main">
@@ -95,17 +96,17 @@
 				  		<div class="grid-child form-site-each">
 						  	<div class="field-block">
 							  	<label for="field-site-name" class="label label-required">Your name</label>
-							  	<input type="text" class="input-text" id="field-site-name">
+							  	<input type="text" class="input-text input-required" id="field-site-name">
 						  	</div>				  		
 
 						  	<div class="field-block">
 							  	<label for="field-site-email" class="label label-required">Your email</label>
-							  	<input type="email" class="input-text" id="field-site-email">
+							  	<input type="email" class="input-text input-required" id="field-site-email">
 						  	</div>
 
 						  	<div class="field-block">
 							  	<label for="field-site-role" class="label label-required">Your profession</label>
-							  	<input type="text" class="input-text" id="field-site-role">
+							  	<input type="text" class="input-text input-required" id="field-site-role">
 							  </div>
 							</div> <!-- /form-site-each -->
 

@@ -117,13 +117,16 @@ input[type="submit"] {
   border: none;
 }
 
+input[type="submit"]:focus {
+  outline: 0;
+}
+
 input[type="submit"], button {
   cursor: pointer;
 }
 
 textarea {
   vertical-align: top;
-  min-height: 150px;
 }
 
 table {
@@ -164,6 +167,24 @@ th {
   float: right;
 }
 
+
+/* Helpers: Notify */
+
+.notify {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 2000;
+}
+
+.notify--success {
+  background-color: green;
+}
 
 /* Helpers: Typography */
 
@@ -300,8 +321,12 @@ th {
 
 .label-required:after {
   content: "*";
-  color: red;
+  color: #CF5658;
   margin: 0 0 0 5px;
+  font-size: 30px;
+  line-height: 0;
+  position: relative;
+  top: 12px
 }
 
 .input-text {
@@ -312,13 +337,21 @@ th {
   border: 1px solid #bbb;
 }
 
+.input-text, form .button {
+  min-height: 46px;  
+}
+
 .input-text:focus {
   border: 1px solid #9D67AD;
   outline: 0;
 }
 
 .input-text.input-error {
-  border: 1px solid red;
+  border: 1px solid #CF5658;
+}
+
+textarea.input-text {
+  min-height: 150px;
 }
 
 
@@ -328,6 +361,7 @@ th {
   color: #fff;
   font-weight: 300;
   background-color: #9D67AD;
+  border: 1px solid transparent;
   text-transform: uppercase;
   padding: 10px 20px;
   display: inline-block;
@@ -345,8 +379,8 @@ a.button {
 }
 
 .button-hollow {
-  color: #777;
-  background-color: #fff; 
+  color: #9D67AD;
+  background-color: transparent; 
   border: 1px solid; 
 }
 
@@ -434,7 +468,7 @@ a.button-hollow:hover, a.button-hollow:focus {
 
 .popup-inline {
   position: relative;
-  background: #FFF;
+  background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   width: auto;
   max-width: 500px;
@@ -492,6 +526,16 @@ a.button-hollow:hover, a.button-hollow:focus {
   max-width: 600px;
 }
 
+
+/*-------------------------------------*/
+/* LIGHTBOX: SIGN-UP */
+
+@media only screen and (min-width: 600px) {
+  .sign-up-each {
+    width: 50%;
+    float: left;
+  }
+}
 
 /*-------------------------------------*/
 /* LAYOUT: HEADER */
@@ -844,6 +888,17 @@ a.button-hollow:hover, a.button-hollow:focus {
 
 
 /* Featured: Submit a Site */
+
+.form-site-block {
+  color: #bbb;
+  background-image: url("../../assets/img/bg/dark-sharp-edges.png");
+  background-repeat: repeat;
+  padding: 20px 0 30px;
+}
+
+.form-site textarea {
+  min-height: 186px;
+}
 
 @media only screen and (min-width: 900px) {
   .form-site-each {

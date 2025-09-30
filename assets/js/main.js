@@ -30,3 +30,10 @@ $('.button-signup-trigger').magnificPopup({
   midClick: true,
   fixedContentPos: true
 });
+
+// HOME: BANNER IMAGE LOADING, ANIMATION
+
+$(".banner-img-block").imagesLoaded(function(){
+	$(".banner-img").addClass("banner-img-animate");
+});
+

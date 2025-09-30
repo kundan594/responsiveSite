@@ -761,19 +761,75 @@ a.button-hollow:hover, a.button-hollow:focus {
 /* PAGE: HOME */
 
 .banner-img-block {
-  margin: 0 0 20px 0;
+  margin: 0 auto 25px auto;
+}
+
+.banner-img {
+  width: 280px;
+  position: relative;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.2);
+  -webkit-transform-origin: top;
+  transform-origin: top;
+}
+
+.banner-img-animate {
+  -webkit-transition: all 0.4s linear 0.8s;
+  transition: all 0.4s linear 0.8s;
+}
+
+.banner-img-1 {
+  top: 40px;
+  left: 280px;
+  -webkit-transform: scale(0.78);
+  transform: scale(0.78);
+  display: none;
+  z-index: 2;
+}
+
+.banner-img-1.banner-img-animate {
+  top: 47px;
+  left: 10px;
+}
+
+.banner-img-2 {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  z-index: 3;
+}
+
+.banner-img-2.banner-img-animate {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.banner-img-3 {
+  top: 80px;
+  right: 280px;
+  -webkit-transform: scale(0.71);
+  transform: scale(0.71);
+  display: none;
+  z-index: 1;
+}
+
+.banner-img-3.banner-img-animate {
+  top: 47px;
+  right: 10px;
+  -webkit-transform: scale(0.78);
+  transform: scale(0.78);
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
   .banner-img-block {
     width: 840px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .banner-img {
     float: left;
+  }
+
+  .banner-img-1, .banner-img-3 {
+    display: block;
   }
 }
 

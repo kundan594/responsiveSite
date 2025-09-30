@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="container-full">
 		<div class="grid-parent">
-			<div class="footer-social-block">
+			<div class="footer-social-block grid-child">
 				<a href="" class="footer-social-each" aria-label="Twitter link">
 					<span class="icon-round-wrap">
 						<span class="icon-twitter color-twitter dead-center"></span>					
@@ -29,7 +29,7 @@
 				</a>
 			</div> <!-- /footer-social-block -->
 
-			<div class="footer-copyright-block">
+			<div class="footer-copyright-block grid-child">
 				<div>Copyright 2015, LiquidApt, Inc. All Rights Reserved.</div>
 				<div><a href="credits.txt">Credits</a></div>
 			</div> <!-- /footer-copyright-block -->

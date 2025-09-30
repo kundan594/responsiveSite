@@ -283,7 +283,6 @@ th {
   .table-responsive tr {
     margin: 0 0 25px 0;
   }
-
 }
 
 
@@ -317,6 +316,7 @@ th {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.05);
   border: 1px solid #bbb;
+  transition: all 0.2s linear;
 }
 
 .input-text, form .button {
@@ -326,6 +326,7 @@ th {
 .input-text:focus {
   border: 1px solid #9D67AD;
   outline: 0;
+  transition: all 0.2s ease-in;
 }
 
 .input-text.input-error {
@@ -404,7 +405,7 @@ a.button {
 }
 
 a.button-hollow {
-  color: #777;
+  color: #9D67AD;
 }
 
 a.button-hollow:hover, a.button-hollow:focus {
@@ -599,6 +600,7 @@ a.button-hollow:hover, a.button-hollow:focus {
   }
 }
 
+
 /*-------------------------------------*/
 /* LAYOUT: HEADER */
 
@@ -618,6 +620,7 @@ a.button-hollow:hover, a.button-hollow:focus {
   color: inherit;
 }
 
+
 /* Header: Logo */
 
 .logo {
@@ -626,6 +629,7 @@ a.button-hollow:hover, a.button-hollow:focus {
   display: block;
   min-width: 120px;
 }
+
 
 /* Header: Navigation */
 
@@ -732,10 +736,26 @@ a.button-hollow:hover, a.button-hollow:focus {
   color: #fff;
 }
 
+
+/* Footer: Social Icons */
+
+.footer-social-each {
+  margin: 10px 10px 0 0;
+  display: inline-block;
+}
+
+.footer-social-each .icon-round-wrap {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer: Copyright Block */
+
 .footer-copyright-block {
   font-size: 80%;
-  margin: 10px 0 0 0;
+  margin: 10px 0;
 }
+
 
 @media only screen and (min-width: 700px) {
   .footer {
@@ -751,14 +771,27 @@ a.button-hollow:hover, a.button-hollow:focus {
   }
 }
 
-/* Footer: Social Icons */
-
-
-/* Footer: Copyright Block */
-
 
 /*-------------------------------------*/
 /* PAGE: HOME */
+
+.heading-primary--banner {
+  font-size: 180%;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.heading-primary--banner, .sub-heading--banner {
+  color: #888;
+}
+
+.banner-home {
+  padding: 20px 0;
+}
+
+.button-explore {
+  margin: 0 10px 0 0;
+}
 
 .banner-img-block {
   margin: 0 auto 25px auto;
@@ -832,6 +865,7 @@ a.button-hollow:hover, a.button-hollow:focus {
     display: block;
   }
 }
+
 
 /*-------------------------------------*/
 /* PAGE: OVERVIEW */
@@ -941,6 +975,10 @@ a.button-hollow:hover, a.button-hollow:focus {
 
 /* Overview: Theme Block */
 
+.liquidapt-theme-block {
+  padding: 20px 0 0 0;
+}
+
 .table-theme th {
   color: #fff;
   font-weight: 300;
@@ -960,6 +998,13 @@ a.button-hollow:hover, a.button-hollow:focus {
 
 
 /* Overview: Call to Action */
+
+.overview-sign-up-block {
+  background-image: url("../../assets/img/bg/light-sharp-edges.png");
+  background-repeat: repeat;
+  padding: 20px 0 40px;
+  margin: 40px 0 0 0;
+}
 
 
 /*-------------------------------------*/
@@ -1158,6 +1203,11 @@ a.button-hollow:hover, a.button-hollow:focus {
   display: block;
 }
 
+.email-each-type {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 @media only screen and (min-width: 600px) {
   .email-each {
     width: 33.33%;
@@ -1270,21 +1320,4 @@ a.button-hollow:hover, a.button-hollow:focus {
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
-}
-
-
-/*-------------------------------------*/
-/* MEDIA QUERIES */
-
-
-@media only screen and (min-width: 1200px) {
-}
-
-@media only screen and (min-width: 900px) {
-}
-
-@media only screen and (min-width: 700px) {
-}
-
-@media only screen and (min-width: 600px) {
 }

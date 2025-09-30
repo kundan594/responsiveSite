@@ -5,6 +5,23 @@
 		<meta charset="utf-8">
 		<title>LiquidApt: Responsive Site Builder</title>
 		<?php include "includes/head.php"; ?>
+		<style>
+			.header, .nav-block {
+				background-color: #eee;
+			}
+
+			.header {
+				box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+			}
+
+			a.logo {
+				color: #9D67AD;
+			}
+
+			a.nav-trigger, .nav li a:not(.button) {
+				color: #555;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -23,7 +40,7 @@
 			  			<img src="assets/img/featured/jason-photon.jpg" alt="Banner Home: 3" class="banner-img banner-img-3" width="280">
 						</div> <!-- /banner-img-block -->
 						<a href="overview.php" class="button button-hollow button-explore">Explore</a>
-						<a href="" class="button">Get LiquidApt Now</a>				
+						<a href="#popup-sign-up" class="button button-signup-trigger">Get LiquidApt Now</a>				
 					</div> <!-- /banner-home -->
 				</div> <!-- /center -->
 			</section> <!-- /container-main -->

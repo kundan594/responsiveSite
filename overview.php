@@ -65,7 +65,7 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="">
+							<img src="http://placehold.it/1000x667" alt="" class="full-width">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 
@@ -79,7 +79,7 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="">
+							<img src="http://placehold.it/1000x667" alt="" class="full-width">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 
@@ -93,7 +93,7 @@
 						</div>
 
 						<div class="liquidapt-usage-img">
-							<img src="http://placehold.it/1000x667" alt="">
+							<img src="http://placehold.it/1000x667" alt="" class="full-width">
 						</div>
 					</div> <!-- /liquidapt-usage-each -->
 				</div> <!-- /liquidapt-usage-block -->					
@@ -105,7 +105,7 @@
 						<h2 class="heading-secondary">Production-ready templates</h2>
 						<div class="sub-heading">Have your website up in an hour!</div>
 					</div>
-				  <table class="table table-liquidapt-theme table-responsive">
+				  <table class="table table-responsive">
 		 		  	<thead>
 				  		<tr>
 				  			<th>Themes</th>

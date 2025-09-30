@@ -177,6 +177,7 @@
 		</main>
 		<?php include "includes/footer.php"; ?>
 		<?php include "includes/js-global.php"; ?>
+		<script src="assets/js/lib/wow.min.js"></script>
 	</body>
 	
 </html>

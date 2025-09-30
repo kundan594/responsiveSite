@@ -4,4 +4,5 @@
 <link rel="icon" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+<link rel="stylesheet" href="assets/css/lib/magnific-popup.css" type="text/css">
 <link rel="stylesheet" href="assets/css/main.css" type="text/css">

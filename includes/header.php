@@ -10,7 +10,7 @@
 				<li><a href="team.php">Team</a></li>
 				<li><a href="featured.php">Featured</a></li>
 				<li><a href="contact.php">Contact</a></li>
-				<li><a href="sign-up.php">Sign-up</a></li>
+				<li><a href="#popup-sign-up" class="button-signup-trigger">Sign-up</a></li>
 			</ul>
 		</nav>
 	</div>

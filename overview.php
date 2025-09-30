@@ -168,7 +168,7 @@
 
 				<form>
 					<div class="field-block center">
-						<a href="" class="button">Get Started!</a>					
+						<a href="#popup-sign-up" class="button button-signup-trigger">Get Started!</a>					
 					</div>
 				</form>
 				</div>

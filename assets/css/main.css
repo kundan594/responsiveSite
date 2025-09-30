@@ -496,6 +496,21 @@ th {
 /* PAGE: OVERVIEW */
 
 
+/* Overview: Video Block */
+
+
+/* Overview: Steps Block */
+
+
+/* Overview: Why LiquidApt */
+
+
+/* Overview: Theme Block */
+
+
+/* Overview: Call to Action */
+
+
 /*-------------------------------------*/
 /* PAGE: TEAM */
 
@@ -660,6 +675,10 @@ th {
 
 .email-each {
   margin: 10px 0;
+}
+
+.email-each a {
+  display: block;
 }
 
 @media only screen and (min-width: 600px) {
